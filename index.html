@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <style>
+    /* This is for wire framing to see our rows/columns */
+    body.debug .container,
+    body.debug .container-fluid {
+      outline: 2px double blue;
+      outline-offset: -2px;
+    }
+    body.debug .row {
+      outline: 2px dashed red;
+      outline-offset: -2px;
+    }
+    body.debug [class*="col-"] {
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+    }
+  </style>
+
+  <body class="debug">
+    <!-- My header -->
+    <section class="container-fluid">
+      <header class="row bg-primary">
+        <div class="col-12 text-light">
+          <h1 class=""><i class="fab fa-artstation"></i>Lorem ipsum</h1>
+        </div>
+      </header>
+    </section>
+
+    <section class="container-fluid">
+      <!-- row bg image  -->
+      <div class="row login bg-color">
+        <!-- 2 colums on top of the row -->
+        <!-- 1st colum -->
+        <div class="col-6">
+          <!-- row for subtle heading -->
+          <div class="row">
+            <card class="col-12 bg-primary"><h1>eredsfdfd</h1></card>
+          </div>
+          <div class="col-12 bg-white d-flex ps-4 input-card form">
+            <!-- heading -->
+            <h1>sfdgsdgsg</h1>
+            <!-- inputs  -->
+            <input class="inputs mb-2" type="text" placeholder="Name" />
+
+            <input class="inputs mb-2" type="email" placeholder="Email" />
+
+            <input class="inputs mb-2" type="text" />
+          </div>
+        </div>
+        <!-- second colum -->
+        <div class="col-6"></div>
+      </div>
+    </section>
+  </body>
+</html>
