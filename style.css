@@ -1,12 +1,18 @@
 .login {
-  background-image: url(/assests/styles/imgs/undraw_Social_bio_re_0t9u.svg);
+  background-image: url(/assests/styles/imgs/pexels-tyler-lastovich-997443.jpg);
   height: 80vh;
-  background-size: 20rem;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: bottom;
-  background-position-x: right;
+
 }
 
-.bg-color {
-  background-color: rgb(228, 228, 228);
+.card-bg {
+  background-color: rgba(44, 43, 43, 0.562);
+  backdrop-filter: blur(0.6rem);
+}
+
+@media only screen and (max-width:700px) {
+  .text-image-hide {
+    visibility: hidden;
+  }
 }
