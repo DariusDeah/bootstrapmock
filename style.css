@@ -1,6 +1,6 @@
 .login {
   background-image: url(/assests/styles/imgs/pexels-tyler-lastovich-997443.jpg);
-  /* height: 80vh; */
+  height: 80vh;
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -15,4 +15,33 @@
   .text-image-hide {
     visibility: hidden;
   }
+}
+
+.third-sect-pic {
+  height: 30rem;
+  width: 100vw;
+}
+
+@media only screen and (min-width: 700px) {
+  .third-sect-pic {
+
+    width: fit-content;
+  }
+
+}
+
+.center-stuff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+
+
+.fas {
+  font-size: 3rem;
+  width: fit-content;
+  position: absolute;
 }
