@@ -96,6 +96,12 @@
     width: fit-content;
   }
 
+  .card-overlap {
+    position: relative;
+    top: 7rem;
+    width: 30rem;
+  }
+
 }
 
 .btn {
