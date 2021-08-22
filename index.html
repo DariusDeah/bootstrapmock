@@ -11,7 +11,7 @@
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css" />
-  <title>Document</title>
+  <title>Red Bookings</title>
 </head>
 <style>
   /* This is for wire framing to see our rows/columns */
@@ -36,8 +36,8 @@
   <!-- My header -->
   <section class="container-fluid">
     <header class="row bg-dark">
-      <div class="col-12 text-light">
-        <h1 class=""><i class="fab fa-artstation"></i>Lorem ipsum</h1>
+      <div class="col-12 text-light p-1">
+        <h1 class=""><i class="fab fa-artstation"></i> Red Bookings</h1>
       </div>
     </header>
   </section>
@@ -96,10 +96,11 @@
 
       <!-- 2nd colum -->
       <!-- Text over image -->
-      <div class="col-6 text-light text-image-hide pt-5">
-        <div class="row  ">
-          <h1>
-            Lorem ipsum dolor sit amet consectetur.
+      <div class="col-6 text-light text-image-hide pt-5 ">
+        <div class="row text-center pt-5  ">
+          <h1 class="lh-base">
+            Flights <span class="text-danger"> Where </span> You Want <br>
+            <span class="text-danger">When</span> You Want.
           </h1>
         </div>
       </div>
@@ -114,7 +115,7 @@
   <section class="container-fluid">
     <div class="row bg-dark">
       <!-- text column needs to be 2nd in order on mobile -->
-      <div class="col-md-6 order-sm-2 order-md-1 text-light ps-4 ">
+      <div class="col-md-6 order-sm-last order-md-first text-light ps-4 " style="height: 40vh;">
         <h1>blah blah blah</h1>
         <p>lorem ipsum loremm dweas</p>
         <p>lorem ipsum loremm dweas</p>
@@ -122,7 +123,7 @@
 
 
       <!-- card with text column needs be firsat order in mobile  -->
-      <div class="col-md-6 order-sm-1 order-md-2">
+      <div class="col-md-6 order-sm-first order-md-last">
         <!-- col card -->
         <div class="card " style="width: 20rem;">
           <ul class="list-group list-group-flush">
@@ -153,17 +154,22 @@
 
 
       <!-- column with text -->
-      <div class="col-md-8 text-light center-stuff">
+      <div class="col-md-8 text-light">
         <header class="row ">
-          <div class="col-12 ">
-            <div class="row check">
+          <div class="col-12 bg-danger ">
+            <!-- row with check mark and text -->
+            <div class="row ">
               <i class="fas fa-check-circle "></i>
-              <h1 class="text-end"> blahblahblah</h1>
+              <h1> blahblahblah</h1>
+              <div class="row">
+                <h1>alsoblahblahdfssd</h1>
+              </div>
+
             </div>
-            <h1>alsoblahblahdfssd</h1>
           </div>
 
         </header>
+
         <div class="row fs-2 ">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur mollitia maiores aliquam libero nesciunt
@@ -172,9 +178,33 @@
           </p>
 
         </div>
-
+        <div class="row ">
+          <button class="p-3 btn-read-more">more</button>
+        </div>
       </div>
   </section>
+
+  <!-- 4th container -->
+  <section class="container-fluid">
+    <div class="row">
+      <!-- card1 -->
+      <div class="col-4 order-sm-2 order-1 ">1</div>
+
+
+
+
+      <!-- card 2 emphasis has more stuff-->
+      <div class="col-4 order-sm-1 order-2">2</div>
+
+
+
+
+      <!-- card-3 -->
+      <div class="col-4 order-sm-3 order-3">3</div>
+    </div>
+  </section>
+
+
 </body>
 
 </html>
