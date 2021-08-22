@@ -102,6 +102,10 @@
     width: 30rem;
   }
 
+  .margins-third {
+    margin-top: 7rem !important;
+  }
+
 }
 
 .btn {
@@ -121,7 +125,14 @@
   text-align: left;
 }
 
-
+.fa-tags,
+.fa-hotel,
+.fa-car-side,
+.fa-tags,
+.fa-globe-americas,
+.fa-hand-holding-usd {
+  font-size: 1rem !important;
+}
 
 .fas {
   font-size: 2rem;
