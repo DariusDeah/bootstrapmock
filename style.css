@@ -16,7 +16,7 @@
     animation-name: pic-slide;
     animation-duration: 35s;
     animation-iteration-count: infinite;
-    animation-delay: 4s;
+    animation-delay: 2s;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1)
   }
 }
@@ -98,12 +98,13 @@
 
   .card-overlap {
     position: relative;
-    top: 7rem;
+    top: 9rem;
     width: 30rem;
   }
 
   .margins-third {
-    margin-top: 7rem !important;
+    margin-top: 12rem !important;
+    margin-bottom: 8rem !important;
   }
 
 }
@@ -162,8 +163,8 @@ body {
 
 .image-text-glow2 {
   animation-name: glow-text;
-  animation-duration: 3s;
-  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-delay: .7s;
   animation-fill-mode: forwards;
   color: white;
 }
