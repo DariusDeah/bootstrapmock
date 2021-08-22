@@ -165,3 +165,19 @@ body {
 /* .fourth-section-height {
   height: 60vh;
 } */
+
+.fix-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-hover:hover {
+  cursor: pointer;
+  color: #dc3545;
+}
+
+.footer-hover:active {
+  cursor: pointer;
+  color: #dc3545;
+}
