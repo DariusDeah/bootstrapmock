@@ -11,6 +11,7 @@
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Red Bookings</title>
 </head>
 <style>
@@ -32,10 +33,10 @@
   }
 </style>
 
-<body class="debug">
+<body class=" ">
   <!-- My header -->
   <section class="container-fluid">
-    <header class="row bg-dark">
+    <header class="row ">
       <div class="col-12 text-light p-1">
         <h1 class=""><i class="fab fa-artstation"></i> Red Bookings</h1>
       </div>
@@ -99,8 +100,8 @@
       <div class="col-6 text-light text-image-hide pt-5 ">
         <div class="row text-center pt-5  ">
           <h1 class="lh-base">
-            Flights <span class="text-danger"> Where </span> You Want <br>
-            <span class="text-danger">When</span> You Want.
+            Flights <span class="image-text-glow"> Where </span> You Want <br>
+            <span class="image-text-glow2">When</span> You Want.
           </h1>
         </div>
       </div>
@@ -112,25 +113,25 @@
 
 
   <!-- 2nd container -->
-  <section class="container-fluid">
-    <div class="row bg-dark">
+  <section class="container p-4 mt-5 mb-5 pt-5 border-line">
+    <div class="row">
       <!-- text column needs to be 2nd in order on mobile -->
-      <div class="col-md-6 order-sm-last order-md-first text-light ps-4 " style="height: 40vh;">
-        <h1>blah blah blah</h1>
-        <p>lorem ipsum loremm dweas</p>
-        <p>lorem ipsum loremm dweas</p>
+      <div class="col-md-6 order-sm-last order-md-first text-light ps-4 " data-aos="fade-up" data-aos-easing="linear">
+        <h1>Theres many perks when you book with us</h1>
+        <h3 class="text-muted"> But....Just to name a few <i class="fas fa-caret-right ps-5"></i></h3>
+
       </div>
 
 
       <!-- card with text column needs be firsat order in mobile  -->
       <div class="col-md-6 order-sm-first order-md-last">
         <!-- col card -->
-        <div class="card " style="width: 20rem;">
+        <div class="card  " style="width: 20rem;" data-aos="fade-up" data-aos-easing="linear">
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">Prices <span class="text-danger">20% </span>lower that Competitors</li>
+            <li class="list-group-item">2 nights free At any major hotel </li>
+            <li class="list-group-item">Reduced Rates on Vehicle Rentals</li>
+            <li class="list-group-item">Priorty seated spots 20% off </li>
           </ul>
         </div>
       </div>
@@ -141,12 +142,12 @@
 
 
   <!-- 3rd container -->
-  <section class="container-fluid">
-    <div class="row bg-dark">
+  <section class="container mt-5 mb-5 pb-5 border-line">
+    <div class="row">
       <!-- coluumn with img -->
       <div class="col-md-4 p-0  text-center">
         <!-- img -->
-        <img src="/assests/styles/imgs/pexels-aaron-hilborn-3643181 (1).jpg" alt="plane" class="third-sect-pic">
+        <img src="/assests/styles/imgs/pexels-thiago-matos-2008426.jpg" alt="plane" class="third-sect-pic">
 
 
 
@@ -154,15 +155,15 @@
 
 
       <!-- column with text -->
-      <div class="col-md-8 text-light">
+      <div class="col-md-8 text-light ps-5 pt-3" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="700">
         <header class="row ">
-          <div class="col-12 bg-danger ">
+          <div class="col-12 ">
             <!-- row with check mark and text -->
             <div class="row ">
-              <i class="fas fa-check-circle "></i>
-              <h1> blahblahblah</h1>
+
+              <h1> <i class="fas fa-check-circle text-danger"></i> Best Trusted </h1>
               <div class="row">
-                <h1>alsoblahblahdfssd</h1>
+                <h1>For 5 Years Strong</h1>
               </div>
 
             </div>
@@ -172,39 +173,85 @@
 
         <div class="row fs-2 ">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur mollitia maiores aliquam libero nesciunt
-            quos sunt adipisci aut debitis hic corrupti doloremque praesentium, porro eligendi repudiandae voluptas ex
-            autem magni.
+            Red books has been deliverying the best rates for the best dates to over 80,000 members for 5 years strong
+          <p class="text-muted">
+            we take pride in granting our
+            customers with the best deals on flights all over the globe to many central hubs nationally and interna....
+          </p>
           </p>
 
         </div>
         <div class="row ">
-          <button class="p-3 btn-read-more">more</button>
+          <button class="p-2 btn-read-more bg-danger">read more</button>
         </div>
       </div>
   </section>
 
   <!-- 4th container -->
-  <section class="container-fluid">
-    <div class="row">
-      <!-- card1 -->
-      <div class="col-4 order-sm-2 order-1 ">1</div>
+  <section class="container">
+    <div class="row p-4 ">
+      <!-- card 1 -->
+      <div class="col-md-4 order-sm-2 order-md-1 p-2 ">
+        <div class="card">
+          <div class="card-header">
+            Quote
+          </div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>A well-known quote, contained in a blockquote element.</p>
+              <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+
+
+      </div>
 
 
 
 
       <!-- card 2 emphasis has more stuff-->
-      <div class="col-4 order-sm-1 order-2">2</div>
+      <div class="col-md-4 order-sm-1 order-md-2 p-2">
+        <div class="card">
+          <div class="card-header">
+            Quote Emp
+          </div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>A well-known quote, contained in a blockquote element.</p>
+              <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
 
 
 
 
       <!-- card-3 -->
-      <div class="col-4 order-sm-3 order-3">3</div>
+      <div class="col-md-4 order-sm-3 order-md-3 p-2">
+        <div class="card">
+          <div class="card-header">
+            Quote
+          </div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>A well-known quote, contained in a blockquote element.</p>
+              <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

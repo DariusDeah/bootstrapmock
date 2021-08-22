@@ -1,10 +1,70 @@
 .login {
   background-image: url(/assests/styles/imgs/pexels-tyler-lastovich-997443.jpg);
+
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
 
 }
+
+@media(min-width:700px) {
+  .login {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    animation-name: pic-slide;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1)
+  }
+}
+
+@keyframes pic-slide {
+  0% {
+    background-color: #111;
+  }
+
+  15% {
+    background-image: url(/assests/styles/imgs/pexels-matteus-silva-5994821.jpg);
+
+  }
+
+  20% {
+    background-color: #111;
+  }
+
+  30% {
+    background-image: url(/assests/styles/imgs/pexels-enric-cruz-lópez-6272216.jpg);
+  }
+
+  40% {
+    background-color: #111;
+  }
+
+  50% {
+    background-image: url(/assests/styles/imgs/pexels-chevanon-photography-333525.jpg);
+  }
+
+  60% {
+    background-color: #111;
+  }
+
+  75% {
+    background-image: url(/assests/styles/imgs/pexels-aradhana-2697288.jpg);
+    background-position: center;
+  }
+
+  80% {
+    background-color: #111;
+  }
+
+  100% {
+    background-image: url(/assests/styles/imgs/pexels-thiago-matos-2008426.jpg);
+  }
+}
+
 
 .fab {
   color: red;
@@ -15,8 +75,12 @@
   backdrop-filter: blur(0.3rem);
 }
 
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:600px) {
   .text-image-hide {
+    visibility: hidden;
+  }
+
+  .fa-caret-right {
     visibility: hidden;
   }
 }
@@ -54,11 +118,46 @@
 
 
 .fas {
-  font-size: 3rem;
+  font-size: 2rem;
   width: fit-content;
 
 }
 
 .btn-read-more {
   width: fit-content;
+}
+
+body {
+  background-color: #111;
+}
+
+.border-line {
+  border-bottom: solid 1px #cacacace !important;
+
+}
+
+.image-text-glow {
+  animation-name: glow-text;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  color: white
+}
+
+.image-text-glow2 {
+  animation-name: glow-text;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  color: white;
+}
+
+@keyframes glow-text {
+  from {
+    color: white;
+
+  }
+
+  to {
+    color: #dc3545;
+  }
 }
