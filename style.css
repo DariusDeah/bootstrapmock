@@ -4,7 +4,7 @@
 
 /* ||Backgroung Image */
 .bg-image {
-  background-image: url(/assests/styles/imgs/pexels-tyler-lastovich-997443.jpg);
+  background-image: url(assests/styles/imgs/pexels-tyler-lastovich-997443.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -17,7 +17,7 @@
   }
 
   15% {
-    background-image: url(/assests/styles/imgs/pexels-matteus-silva-5994821.jpg);
+    background-image: url(assests/styles/imgs/pexels-matteus-silva-5994821.jpg);
 
   }
 
@@ -26,7 +26,7 @@
   }
 
   30% {
-    background-image: url(/assests/styles/imgs/pexels-enric-cruz-lópez-6272216.jpg);
+    background-image: url(assests/styles/imgs/pexels-enric-cruz-lópez-6272216.jpg);
   }
 
   40% {
@@ -34,7 +34,7 @@
   }
 
   50% {
-    background-image: url(/assests/styles/imgs/pexels-chevanon-photography-333525.jpg);
+    background-image: url(assests/styles/imgs/pexels-chevanon-photography-333525.jpg);
   }
 
   60% {
@@ -42,7 +42,7 @@
   }
 
   75% {
-    background-image: url(/assests/styles/imgs/pexels-aradhana-2697288.jpg);
+    background-image: url(assests/styles/imgs/pexels-aradhana-2697288.jpg);
     background-position: center;
   }
 
@@ -51,7 +51,7 @@
   }
 
   100% {
-    background-image: url(/assests/styles/imgs/pexels-thiago-matos-2008426.jpg);
+    background-image: url(assests/styles/imgs/pexels-thiago-matos-2008426.jpg);
   }
 }
 
