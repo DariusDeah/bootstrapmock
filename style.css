@@ -1,44 +1,14 @@
+:root {
+  --red: #e31f3c
+}
+
+/* ||Backgroung Image */
 .bg-image {
   background-image: url(/assests/styles/imgs/pexels-tyler-lastovich-997443.jpg);
-
-  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
 
-}
-
-
-
-.header-font {
-  margin-top: 1rem;
-  font-family: itc-avant-garde-gothic-pro,
-    sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-
-.card--bg {
-  background-color: rgba(44, 43, 43, 0.285);
-  backdrop-filter: blur(0.3rem);
-}
-
-
-
-
-
-@media(min-width:800px) {
-  .bg-image {
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    animation-name: pic-slide;
-    animation-duration: 35s;
-    animation-iteration-count: infinite;
-    animation-delay: 2s;
-    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1)
-  }
 }
 
 @keyframes pic-slide {
@@ -85,10 +55,40 @@
   }
 }
 
-
-.fa-book-open {
-  color: red;
+@media(min-width:800px) {
+  .bg-image {
+    animation: pic-slide 35s cubic-bezier(0.075, 0.82, 0.165, 1) 2s infinite;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
+
+
+
+
+
+.header--font {
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin-top: 1rem;
+}
+
+
+.card--bg {
+  background-color: rgba(44, 43, 43, 0.285);
+  backdrop-filter: blur(0.3rem);
+}
+
+
+.red-logo {
+
+  color: var(--red);
+}
+
+
+
 
 
 
@@ -107,28 +107,10 @@
   width: 100vw;
 }
 
-@media only screen and (min-width: 700px) {
-  .third-sect-pic {
-
-    width: fit-content;
-  }
-
-  .card-overlap {
-    position: relative;
-    top: 9rem;
-    width: 30rem;
-  }
-
-  .margins-third {
-    margin-top: 12rem !important;
-    margin-bottom: 8rem !important;
-  }
-
-}
 
 .btn {
-  background-color: red;
-  border-color: red;
+  background-color: var(--red);
+  border-color: var(--red);
 }
 
 .btn:hover {
@@ -162,6 +144,11 @@
   width: fit-content;
 }
 
+.btn-read-more--bg-color {
+  background-color: var(--red);
+  border-color: var(--red);
+}
+
 body {
   background-color: #111;
 }
@@ -172,17 +159,11 @@ body {
 }
 
 .image-text-glow {
-  animation-name: glow-text;
-  animation-duration: 3s;
-  animation-fill-mode: forwards;
-  color: white
+  animation: glow-text 3s forwards;
 }
 
 .image-text-glow2 {
-  animation-name: glow-text;
-  animation-duration: 2s;
-  animation-delay: .7s;
-  animation-fill-mode: forwards;
+  animation: glow-text 2s .7s forwards;
   color: white;
 }
 
@@ -193,13 +174,10 @@ body {
   }
 
   to {
-    color: #dc3545;
+    color: var(--red);
   }
 }
 
-/* .fourth-section-height {
-  height: 60vh;
-} */
 
 .fix-display {
   display: flex;
@@ -209,12 +187,32 @@ body {
 
 .footer-hover:hover {
   cursor: pointer;
-  color: #dc3545;
+  color: var(--red);
 }
+
+@media only screen and (min-width: 700px) {
+  .third-sect-pic {
+
+    width: fit-content;
+  }
+
+  .card-overlap {
+    position: relative;
+    top: 9rem;
+    width: 30rem;
+  }
+
+  .margins-third {
+    margin-top: 12rem !important;
+    margin-bottom: 8rem !important;
+  }
+
+}
+
 
 .footer-hover:active {
   cursor: pointer;
-  color: #dc3545;
+  color: var(--red);
 }
 
 .fa-star,
