@@ -1,4 +1,4 @@
-.login {
+.bg-image {
   background-image: url(/assests/styles/imgs/pexels-tyler-lastovich-997443.jpg);
 
   height: 100vh;
@@ -7,8 +7,28 @@
 
 }
 
+
+
+.header-font {
+  margin-top: 1rem;
+  font-family: itc-avant-garde-gothic-pro,
+    sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+.card--bg {
+  background-color: rgba(44, 43, 43, 0.285);
+  backdrop-filter: blur(0.3rem);
+}
+
+
+
+
+
 @media(min-width:800px) {
-  .login {
+  .bg-image {
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -70,10 +90,7 @@
   color: red;
 }
 
-.card-bg {
-  background-color: rgba(44, 43, 43, 0.285);
-  backdrop-filter: blur(0.3rem);
-}
+
 
 @media only screen and (max-width:600px) {
   .text-image-hide {
@@ -198,4 +215,10 @@ body {
 .footer-hover:active {
   cursor: pointer;
   color: #dc3545;
+}
+
+.fa-star,
+.fa-star-half {
+  font-size: .9rem;
+  color: gold;
 }
